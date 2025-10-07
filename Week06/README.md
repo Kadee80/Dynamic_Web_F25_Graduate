@@ -2,14 +2,14 @@
 
 Believe it or not, we have covered a lot of core React topics so far with our component library! When we completed our image search, we opened up the possibility of retrieving data from an outside source with the `Axios` library and API requests. Your Midterm Project is a multi week assignment where you should showcase your understanding of a few of the following topics:
 
-- JSX and componentization.
-- Passing data and functions through the Props system
-- Component or App's local State using `useState()` hook
+- `JSX` and componentization.
+- Passing data and functions through the `Props` system
+- Component or App's local `State` using `useState()` hook
 - Control over where and when a function fires in a component using `useEffect()` hook
 - Retrieving data from an outside source by making an API request
 - Navigating between "pages" the React way, using `React-Router-DOM`
-- Installing and using external libraries via NPM
-- Controlled components (input `onChange` handlers and value binding
+- Installing and using external libraries via `NPM`
+- Controlled components (input `onChange` handlers and value binding)
 
 The assignment is pretty open. Please make a single or multi page (using router) website that uses at least 3 components. Even if you do not need to re-use them on your simple project, break out different elements of the page into smaller re-usable components.
 
