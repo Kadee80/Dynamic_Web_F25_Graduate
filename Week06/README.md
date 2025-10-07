@@ -28,5 +28,5 @@ You will be presenting **Tuesday Week08**. Please be sure to document your proje
 - A demo of the site and the progress you have made
 - A snippet of code you figured out (perhaps a tutorial you found or some other feature you figured out)
 - Next steps (if you had more time, or if you plan on continuing to add functionality for your final)
-- Your midterm project code and documentation (and copy of slideshow - link to google slides or pdf of your presentation slides) must be present in your repo.
 - Presentation is part of your midterm grade, this is how it is marked on-time. I will not be grading your code until the Friday after you present. If you make any considerable changes within the extra time, please email me so that I am aware your project may look/behave differently than when you presented.
+- Your midterm project code and documentation (and copy of slideshow - link to google slides or pdf of your presentation slides) must be present in your repo.
