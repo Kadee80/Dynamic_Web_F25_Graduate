@@ -1,12 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import {NavigationProvider} from './context/navigation'
-import './index.css'
+import {Provider} from './context/todos'
 import App from './App'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
-  <NavigationProvider>
+  <Provider>
     <App />
-  </NavigationProvider>
+  </Provider>
 )

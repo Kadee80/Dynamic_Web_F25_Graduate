@@ -1,4 +1,5 @@
-import {useState} from 'react'
+import {useContext} from 'react'
+import CounterContext from '../context/counter'
 import Panel from '../components/Panel'
 import Button from '../components/Button'
 
@@ -9,15 +10,7 @@ import Button from '../components/Button'
 // now share values directly with a component
 // without prop drilling
 const CounterContextPage = () => {
-  const [count, setCount] = useState(0)
-
-  const handleIncrement = () => {
-    setCount(count + 1)
-  }
-
-  const handleDecrement = () => {
-    setCount(count - 1)
-  }
+  const {count, handleIncrement, handleDecrement} = useContext(CounterContext)
 
   return (
     <Panel>
