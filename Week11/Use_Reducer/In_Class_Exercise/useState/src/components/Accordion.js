@@ -10,7 +10,7 @@ const Props = {
 // const state = {
 //   isExpanded: false,
 // }
-*/
+
 
 const DUMMYDATA = {
   id: 'l1kj2i0g',
@@ -18,6 +18,7 @@ const DUMMYDATA = {
   content:
     'Duis eget turpis vel ligula imperdiet suscipit eu ut felis. Ut eget neque at ligula aliquam ultricies eu vitae dolor. Proin eu dignissim velit. Morbi convallis volutpat nisl at vulputate. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam non dignissim sem. Aliquam cursus, tortor at iaculis fermentum, felis tortor interdum justo, eu ornare lorem dui eu lorem. Phasellus nibh sem, tempus at fermentum vel, pulvinar at tellus. Nunc eleifend velit at massa bibendum placerat. Sed tincidunt vestibulum ante ut pellentesque. Duis eget nisl varius, dapibus nunc sed, aliquam diam',
 }
+    */
 
 const Accordion = (props) => {
   // pull out our props with destructuring

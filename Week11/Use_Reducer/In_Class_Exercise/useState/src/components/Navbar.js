@@ -1,6 +1,4 @@
-import React from 'react'
-import cx from 'classnames'
-import {NavLink, Link} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
 import Panel from './Panel'
 
@@ -25,6 +23,9 @@ const Navbar = () => {
       </Link>
       <Link to="/counter" className="text-blue-500">
         Counter
+      </Link>
+      <Link to="/reducer" className="text-blue-500">
+        Counter useReducer
       </Link>
       {/* Add link to your component page for HW */}
     </Panel>

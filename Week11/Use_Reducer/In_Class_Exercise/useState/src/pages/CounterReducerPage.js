@@ -2,7 +2,7 @@ import {useState} from 'react'
 import Panel from '../components/Panel'
 import Button from '../components/Button'
 
-const CounterPage = ({initialCount}) => {
+const CounterReducerPage = ({initialCount}) => {
   // const {initialCount} = props
   // create a piece of state var called count and its setter function
   // this time we are recieving a prop from the parent and setting it as the initial count
@@ -10,7 +10,7 @@ const CounterPage = ({initialCount}) => {
   const [valueToAdd, setValueToAdd] = useState(0)
   const handleIncrement = () => {
     // setCount((currentCount) => currentCount + 1)
-    // BAD NEVER EVER count = count + 1
+    // BAD NEVER EVER count = count + 1 (except in the next refactor with Immer ;)
     setCount(count + 1)
   }
 
@@ -58,4 +58,4 @@ const CounterPage = ({initialCount}) => {
   )
 }
 
-export default CounterPage
+export default CounterReducerPage
