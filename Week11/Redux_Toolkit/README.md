@@ -1,6 +1,6 @@
 # Redux Toolkit
 
-Our next project is going to span a few week. We are going to me making and managing several lists with some randomly generated content using FakerJs. Faker is a fun library for generating fake data so we can focus on other things (like learning Redux Toolkit).
+Our next project is going to introduce `Redux Toolkit`. We are going to me making and managing several lists with some randomly generated content using FakerJs. Faker is a fun library for generating fake data so we can focus on other things (like learning Redux Toolkit).
 
 In our Week11 folder you will find some starter files for todays project. Here is a new `create-react-app` with the following libraries installed:
 
@@ -176,7 +176,7 @@ import {useDispatch, useSelector} from 'react-redux'
 
 Now when we click `[add song]` we should see new random songs listed out inside of our `SongList`!
 
-Our Song List is almost done, we need to wire up our remove song button. Remember we need to include the name of the song to remove in our payload.
+Our Song List is almost done, we need to wire up our remove song button. Remember we need to include the name of the song to remove in our payload. For quick refresher of the [`splice()` method for JS Arrays take a look here]('https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice').
 
 ```jsx
 removeSong(state, action) {
