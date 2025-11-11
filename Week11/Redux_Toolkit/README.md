@@ -176,7 +176,7 @@ import {useDispatch, useSelector} from 'react-redux'
 
 Now when we click `[add song]` we should see new random songs listed out inside of our `SongList`!
 
-Our Song List is almost done, we need to wire up our remove song button. Remember we need to include the name of the song to remove in our payload. For quick refresher of the [`splice()` method for JS Arrays take a look here]('https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice').
+Our Song List is almost done, we need to wire up our remove song button. Remember we need to include the name of the song to remove in our payload. For quick refresher of the `splice()` method for JS Arrays [take a look here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice).
 
 ```jsx
 removeSong(state, action) {
