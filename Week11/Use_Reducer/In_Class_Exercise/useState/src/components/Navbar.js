@@ -25,7 +25,7 @@ const Navbar = () => {
         Counter
       </Link>
       <Link to="/reducer" className="text-blue-500">
-        Counter useReducer
+        CounterReducer
       </Link>
       {/* Add link to your component page for HW */}
     </Panel>
